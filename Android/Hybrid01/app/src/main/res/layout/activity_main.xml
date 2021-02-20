@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="9"
+        >
+        <WebView
+            android:id="@+id/webview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        >
+        <Button
+            android:id="@+id/google"
+            android:layout_width="0px"
+            android:backgroundTint="#FF9C9C"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="GOOGLE"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/naver"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF9C9C"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="NAVER"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/cnn"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:backgroundTint="#FF9C9C"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="CNN"
+            android:layout_weight="1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
